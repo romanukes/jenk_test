@@ -1,6 +1,4 @@
-ARG PYTHON_VER
-
-FROM python:${PYTHON_VER}-slim
+FROM python:3.9-slim
 
 RUN pip install --upgrade pip \
   && pip install poetry
